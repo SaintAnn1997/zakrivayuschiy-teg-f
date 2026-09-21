@@ -1,4 +1,4 @@
-@media(width <= 375px) {
+@media(width <=375px) {
     .card__title {
         line-height: normal;
     }
@@ -12,7 +12,7 @@
         gap: 8px;
     }
 
-    .cards__button-icon  {
+    .cards__button-icon {
         width: 28px;
         height: 28px;
     }
