@@ -1,0 +1,7 @@
+@supports((text-stroke: 1px var(--secondary-color, rgb(255 255 255))) or (-webkit-text-stroke: 1px var(--secondary-color, rgb(255 255 255)))) {
+    .card__label {
+        -webkit-text-stroke: 1px var(--secondary-color, rgb(255 255 255));
+        text-stroke: 1px var(--secondary-color, rgb(255 255 255));
+        text-shadow: none;
+    }
+}

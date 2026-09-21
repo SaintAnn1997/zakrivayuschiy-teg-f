@@ -30,6 +30,14 @@ a {
   color: inherit;
 }
 
+a:focus {
+  outline: unset;
+}
+
+a:focus-visible {
+  outline: 1px solid rgb(0 0 255 / 0.945);
+}
+
 button,
 input {
   color: currentColor;
@@ -42,6 +50,21 @@ ol {
   list-style: none;
 }
 
+button {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: unset;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 .visually-hidden {
   position: absolute;
   inline-size: 1px;
@@ -51,3 +74,9 @@ ol {
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
+.container {
+  width: var(--container-width, clamp(375px, 100%, 700px));
+  margin: 98px auto 0;
+}
+

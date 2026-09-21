@@ -1,0 +1,23 @@
+@media(width <= 375px) {
+    .card__title {
+        line-height: normal;
+    }
+
+    .cards__list {
+        gap: 51px;
+    }
+
+    .cards__button {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .cards__button-icon  {
+        width: 28px;
+        height: 28px;
+    }
+
+    .save-dialog[open] {
+        padding: 29px 38px;
+    }
+}
