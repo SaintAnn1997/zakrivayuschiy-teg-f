@@ -32,7 +32,7 @@
 
 @keyframes fill {
     from {
-        fill: inherit;
+        fill: transparent;
     }
 
     to {
